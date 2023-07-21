@@ -6,6 +6,11 @@ The algorithm, as far as I understand it, works by first becoming familiar with 
 
 ## Running this project
 
-1. Add steps for running this project.
-2. You would obviously need (preferably an expanded version of) my dataset to train the model off of.
-3. 
+1. You would obviously need (preferably an expanded version of) my dataset to train the model off of.
+2. Also, import the model, duh.
+3. Make sure the dataset is in the right directory and you know how to access it.
+4. Run the train.py file on the dataset to train the model.
+5. Wait for a very long time and ensure that nothing frustrating, confusing, annoying or otherwise inconvenient happens while the model is training.
+6. Import your images (the bugs you want to identify).
+7. Run these two commands: NET=models/bugsmodel and DATASET=data/bugsdata
+8. Run this command: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/IMAGENAME.EXT (replace IMAGENAME.EXT with the name of the image you want to model to classify).
