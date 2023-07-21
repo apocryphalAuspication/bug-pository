@@ -1,0 +1,26 @@
+ant
+aphid
+bee (general)
+beetle (general)
+black widow
+brown marmorated stink bug
+brown recluse
+butterfly (general)
+cabbage white butterfly
+caterpillar (general)
+cinnabar moth
+earthworm
+earwig
+fruit fly
+golden orb weaver
+honeybee
+luna moth
+monarch butterfly
+rosy maple moth
+slug (general)
+snail (general)
+spider (general)
+tarantula
+wasp/yellowjacket
+white-lined sphinx moth
+yellow swallowtail butterfly
